@@ -1,0 +1,40 @@
+# Testing reports
+testing_report/
+testing_report
+testing_report.md
+testing_report*.md
+
+# Fixed code files to add
+FIXED_CODES_TOADD/
+FIXED_CODES_TOADD
+fixed_codes_to_add.md
+fixed_codes_to_add*.md
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Build outputs
+build/
+target/
+out/
+dist/
+bin/
+*.class
+
+# Logs
+logs/
+*.log
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db

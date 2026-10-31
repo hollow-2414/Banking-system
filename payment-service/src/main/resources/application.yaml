@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: payment-service
+
+
+  datasource:
+    url: jdbc:mysql://localhost:3307/account_db?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: root
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+
+# razorpay:
+#   key-id: your_key_id
+#   key-secret: your_key_secret
