@@ -20,11 +20,7 @@ The Banking System consists of the following components:
 
 Below is the complete flow chart showing how all components interact synchronously (via Feign/REST Clients) and asynchronously (via Kafka Topics):
 
-```
-
-![Neon Banking Microservices Architecture.png](../../Downloads/Neon%20Banking%20Microservices%20Architecture.png)
-
-```
+![System Connections](./Images/connections.png)
 
 ---
 

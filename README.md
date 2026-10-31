@@ -8,11 +8,10 @@ A high-performance, secure, and event-driven distributed banking system built us
 
 The system is designed as a set of decentralized microservices communicating both synchronously (via Spring Cloud OpenFeign for transactional queries) and asynchronously (via Apache Kafka for event-driven updates).
 
-```
 
-![Banking Microservices Architecture Diagram.png](../../Downloads/Banking%20Microservices%20Architecture%20Diagram.png)
 
-```
+![High Level Design](./Images/HLD.png)
+
 
 ### Key Architectural Concepts
 1. **API Gateway (Spring Cloud Gateway)**: Serves as the single entry point. Protects backend services by implementing IP-based request rate limiting via Redis.
